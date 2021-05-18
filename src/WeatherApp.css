@@ -1,0 +1,47 @@
+.WeatherApp {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  border: 1px solid #dadde1;
+  padding: 16px;
+  margin: 30px auto;
+  border-radius: 10px;
+  color: #35495e;
+}
+
+.WeatherApp form {
+  margin-bottom: 25px;
+}
+
+.WeatherApp input.search {
+  margin-right: 20px;
+}
+
+.WeatherApp h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 20px 0 0 0;
+}
+
+.WeatherApp ul {
+  margin: 0;
+  padding: 0;
+}
+
+.WeatherApp li {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 20px;
+  list-style: none;
+}
+
+.WeatherApp .temperature {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.WeatherApp .degree {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  top: -18px;
+}
